@@ -1,5 +1,6 @@
 body{
     font-family: "Montserrat";
+    text-align: center;
 }
 
 h1{
@@ -10,9 +11,32 @@ h1{
 }
 
 h2{
+    text-align: center;
     font-size: 2.5rem;
     font-weight: normal;
     padding-bottom: 10px;
+}
+
+p{
+    line-height: 2rem;
+}
+
+.bald-img{
+    width: 150px;
+    float: right;
+    margin-left: 30px;
+}
+
+.simp-img{
+    width: 150px;
+    float: left;
+    margin-right: 30px;
+}
+
+.gamer-img{
+    width: 150px;
+    float: right;
+    margin-left: 30px;
 }
 
 .container-fluid{
@@ -46,15 +70,38 @@ h2{
 
 .intro{
     text-align: center;
-}
-
-.intro-about-me{
-    font-family: "Montserrat";
-    margin: auto;
+    margin: 0 auto 0 auto;
     width: 50%;
 }
+
 
 .profile-picture{
     border-radius: 100%;
     width: 18.75rem;
+}
+
+/* about me and skills */
+
+.hello{
+    margin: auto;
+    text-align: center;
+    width: 30%;
+}
+.amethyst{
+    padding-bottom: 20px;
+    width: 150px;
+}
+
+#skills{
+    padding-top: 50px;
+}
+
+.skills-list{
+    margin: auto;
+}
+
+.skill-row{
+    margin: 100px auto;
+    text-align: left;
+    width: 50%;
 }
